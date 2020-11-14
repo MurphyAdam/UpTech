@@ -4,16 +4,15 @@ import router from "./router";
 import store from "./store";
 import vuetify from "./plugins/vuetify";
 import "./plugins/axios";
-import DefaultLayout from "@/layouts/Default";
+import i18n from "./i18n";
 
+Vue.prototype.$theme = vuetify.framework.theme;
 Vue.config.productionTip = false;
-
-// register as golbal layout
-Vue.component("Layout", DefaultLayout);
 
 new Vue({
   router,
   store,
   vuetify,
+  i18n,
   render: h => h(App)
 }).$mount("#app");
