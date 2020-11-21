@@ -74,14 +74,12 @@ export default {
         },
         {
           username: "abdelhadi sabani",
-          logo:
-            "https://scontent.fcmn1-1.fna.fbcdn.net/v/t1.0-1/s200x200/124578344_1639598462877599_7328331849061986962_n.jpg?_nc_cat=104&ccb=2&_nc_sid=7206a8&_nc_eui2=AeFm2KxCHdAunU2hOdD5xC5vEBUaltdsyBQQFRqW12zIFHw426glJBdEfkFm4OkdIuNvFe3wn1fOiJ0Vd3Jir1ov&_nc_ohc=Z_VP8OTg9wMAX8XlXXN&_nc_ht=scontent.fcmn1-1.fna&tp=7&oh=c0cfaa6b16097812e5029d13303b86d2&oe=5FE04B2A",
+          logo: "https://avatars3.githubusercontent.com/u/33328081?s=120&v=4",
           dev: "vue js  seo "
         },
         {
           username: "abdo oumousa",
-          logo:
-            "https://scontent.fcmn1-1.fna.fbcdn.net/v/t1.0-9/29684185_383022288834203_3147485681066627222_n.jpg?_nc_cat=100&ccb=2&_nc_sid=174925&_nc_eui2=AeHZp8QkkTJgjOsdofpGLOTGLncDjkJnKt0udwOOQmcq3XK64r6J2RjWlCRRKfdSdeZFZTStaFuSbZvBB39pBSLb&_nc_ohc=wk7J-jecADUAX9EA0fi&_nc_ht=scontent.fcmn1-1.fna&oh=62ae5d01b956b1ce91853fa4a0487fbd&oe=5FDEFF07",
+          logo: "https://avatars1.githubusercontent.com/u/59849890?s=460&v=4",
           dev: "vue js  seo "
         }
       ]
