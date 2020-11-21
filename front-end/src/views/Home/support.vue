@@ -33,8 +33,8 @@
               data-name="Layer 1"
               xmlns="http://www.w3.org/2000/svg"
               xmlns:xlink="http://www.w3.org/1999/xlink"
-              width="731.88699"
-              height="786.02085"
+              width="100%"
+              height="400.02085"
               viewBox="0 0 731.88699 786.02085"
             >
               <defs>
