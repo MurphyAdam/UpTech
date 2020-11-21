@@ -36,6 +36,15 @@ const routes = [
       title: "Sing Up"
     }
   },
+
+  {
+    path: "/support",
+    name: "support",
+    component: () => import("@/views/Home/support.vue"),
+    meta: {
+      title: "support"
+    }
+  },
   {
     path: "*",
     name: "NotFound",
