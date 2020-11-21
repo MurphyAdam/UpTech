@@ -15,8 +15,8 @@
               </v-flex>
 
               <div v-for="(user, index) in members" :key="index">
-                <v-flex color="primary " class="infomemb ma-5 col-md-10" shaped>
-                  <div rounded class="pa-1  col-md-12 pa-5">
+                <v-flex color="primary " class="infomemb ma-3 col-md-11" shaped>
+                  <div rounded class=" col-md-12 pa-1" style="width:300px">
                     <span
                       ><v-img
                         class="rounded-circle d-inline-block imagelogo mt-3"
