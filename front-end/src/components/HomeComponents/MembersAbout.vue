@@ -8,8 +8,7 @@
             <v-row class="text-center" justify="center">
               <v-flex xs12 md12 prominent>
                 <div class="green--text text-center">
-                  <v-icon>mdi-user</v-icon>
-                  <h2>Members:</h2>
+                  <h2><v-icon>mdi-account</v-icon> Members:</h2>
                 </div>
               </v-flex>
 
