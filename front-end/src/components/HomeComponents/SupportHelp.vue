@@ -19,7 +19,9 @@
                     <p class="text-left grey--text">
                       {{ info.info }}
                     </p>
-                    <v-btn x-large outlined color="warning"> Get now </v-btn>
+                    <v-btn x-large outlined rounded color="warning">
+                      Get now
+                    </v-btn>
                   </v-card>
                 </v-flex>
               </div>
@@ -45,6 +47,42 @@ export default {
         {
           title: "By Phone",
           logo: "mdi-account",
+          info:
+            "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vitae quis corporis eos eius dolores doloremque quae nam quam reprehenderit. Sunt officiis eos in, animi excepturi nulla deserunt totam qui."
+        },
+        {
+          title: "Start a new case",
+          logo: "mdi-briefcase-variant",
+          info:
+            "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vitae quis corporis eos eius dolores doloremque quae nam quam reprehenderit. Sunt officiis eos in, animi excepturi nulla deserunt totam qui."
+        },
+        {
+          title: "Start a new case",
+          logo: "mdi-briefcase-variant",
+          info:
+            "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vitae quis corporis eos eius dolores doloremque quae nam quam reprehenderit. Sunt officiis eos in, animi excepturi nulla deserunt totam qui."
+        },
+        {
+          title: "Start a new case",
+          logo: "mdi-briefcase-variant",
+          info:
+            "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vitae quis corporis eos eius dolores doloremque quae nam quam reprehenderit. Sunt officiis eos in, animi excepturi nulla deserunt totam qui."
+        },
+        {
+          title: "Start a new case",
+          logo: "mdi-briefcase-variant",
+          info:
+            "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vitae quis corporis eos eius dolores doloremque quae nam quam reprehenderit. Sunt officiis eos in, animi excepturi nulla deserunt totam qui."
+        },
+        {
+          title: "Start a new case",
+          logo: "mdi-briefcase-variant",
+          info:
+            "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vitae quis corporis eos eius dolores doloremque quae nam quam reprehenderit. Sunt officiis eos in, animi excepturi nulla deserunt totam qui."
+        },
+        {
+          title: "Start a new case",
+          logo: "mdi-briefcase-variant",
           info:
             "  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ea vitae quis corporis eos eius dolores doloremque quae nam quam reprehenderit. Sunt officiis eos in, animi excepturi nulla deserunt totam qui."
         },
