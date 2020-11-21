@@ -21,7 +21,7 @@
               rounded
               dark
               class="mt-4 py-6 px-12"
-              color="success"
+              color="warning"
             >
               about us
               <v-icon size="40">mdi-arrow-right-bold-circle</v-icon>

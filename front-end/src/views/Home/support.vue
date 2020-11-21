@@ -647,14 +647,10 @@
 </template>
 
 <script>
-import WaveSvg from "@/components/svg/WaveSvg";
-import SocialSvg from "@/components/svg/SocialSvg";
 import AboutMembers from "@/components/HomeComponents/MembersAbout";
 export default {
   name: "Support",
   components: {
-    WaveSvg,
-    SocialSvg,
     AboutMembers
   }
 };

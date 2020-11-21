@@ -1,19 +1,19 @@
 <template>
-  <v-container fluid class="guest d-flex secondarybg">
-    <div class="guest__background"></div>
+  <v-container fluid class="">
+    <div class=""></div>
     <v-row class="align-center">
-      <v-container class="my-5 col-md-8">
-        <div class="pa-2 mt-3">
+      <v-container class="my-5 col-md-12">
+        <div class="">
           <v-layout row wrap>
             <v-row class="text-center" justify="center">
               <v-flex xs12 md12 prominent>
-                <div class="green--text text-center">
+                <div class="orange--text text-center">
                   <h2><v-icon>mdi-account</v-icon> Members:</h2>
                 </div>
               </v-flex>
 
               <div v-for="(user, index) in members" :key="index">
-                <v-flex color="primary " class="infomemb ma-5" shaped>
+                <v-flex color="primary " class="infomemb ma-5 col-md-10" shaped>
                   <div rounded class="pa-1  col-md-12 pa-5">
                     <span
                       ><v-img
@@ -31,15 +31,15 @@
                     <p style="font-size:11px" class="grey--text">
                       {{ user.dev }}
                     </p>
-                    <v-btn x-small color="pirmary" class="grey--text">
+                    <v-btn x-small color="pirmary" class="orange--text">
                       contact
                     </v-btn>
                     <v-spacer></v-spacer>
 
                     <div class="socinfo">
-                      <v-icon class="icons">mdi-facebook</v-icon>
-                      <v-icon class="icons">mdi-whatsapp</v-icon>
-                      <v-icon class="icons">mdi-twitter</v-icon>
+                      <v-icon class="icons blue--text">mdi-facebook</v-icon>
+                      <v-icon class="icons green--text">mdi-whatsapp</v-icon>
+                      <v-icon class="icons indigo--text">mdi-twitter</v-icon>
                     </div>
                   </div>
                 </v-flex>
