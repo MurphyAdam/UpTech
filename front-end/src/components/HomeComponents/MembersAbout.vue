@@ -1,6 +1,8 @@
 <template>
-  <v-container fluid class="">
-    <div class=""></div>
+  <v-container fluid class="guest d-flex secondarybg">
+    <div class="guest__background">
+      <WaveSvg :fillColor="$theme.currentTheme.secondarybg" />
+    </div>
     <v-row class="align-center">
       <v-container class="my-5 col-md-12">
         <div class="">
@@ -39,7 +41,9 @@
                     <div class="socinfo">
                       <v-icon class="icons blue--text">mdi-facebook</v-icon>
                       <v-icon class="icons green--text">mdi-whatsapp</v-icon>
-                      <v-icon class="icons indigo--text">mdi-twitter</v-icon>
+                      <v-icon class="icons light-green--text"
+                        >mdi-twitter</v-icon
+                      >
                     </div>
                   </div>
                 </v-flex>
@@ -53,10 +57,13 @@
 </template>
 
 <script>
-// import WaveSvg from "@/components/svg/WaveSvg";
+import WaveSvg from "@/components/svg/WaveSvg";
 // import GuestSvg from "@/components/svg/GuestSvg";
 
 export default {
+  computed: {
+    WaveSvg
+  },
   data() {
     return {
       members: [

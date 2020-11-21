@@ -647,11 +647,13 @@
 </template>
 
 <script>
-import AboutMembers from "@/components/HomeComponents/MembersAbout";
+import WaveSvg from "@/components/svg/WaveSvg";
+import AboutMembers from "@/components/HomeComponents/SupportHelp";
 export default {
   name: "Support",
   components: {
-    AboutMembers
+    AboutMembers,
+    WaveSvg
   }
 };
 </script>
